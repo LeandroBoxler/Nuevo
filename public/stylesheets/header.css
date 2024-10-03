@@ -1,1 +1,30 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.header--logo{
+    width: 40%;
+}
+.header--logo img{
+    width: 100%;
+}
 
+#burgermenu{
+    font-size: 40px;
+    padding: auto;
+    margin: 20px;
+}
+
+ /* div que contiene el menu */
+.header--div1{
+    width: 40%;
+    display: none;
+}
+.header--div--ul{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;    
+}
+/*DONDE ESTA EL LOGIN Y LA RED SOCIAL*/

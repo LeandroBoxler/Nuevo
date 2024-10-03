@@ -1,0 +1,45 @@
+.main--home{
+    padding: 5px;
+}
+.main--masVendido{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
+}
+
+/*SECCION QUE CONTIENE TODAS LAS DONAS MAS COMPRADAS*/
+.home--section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 3%;
+    gap: 10px;
+}
+
+/* DIV QUE ENCIERRA A CADA DONA */
+.home--donut--div{
+    width: 90%;
+    text-align: center;
+}
+.home--donut--div img{
+    width: 70%;
+}
+/* NOMBRE DE LA DONA */
+.home--donut--name{
+    font-weight: bold;
+    text-align: center;
+}
+/* PRECIO DE LA DONA */
+.home--donut--price{
+    font-weight: bold;
+    text-align: center;
+}
+.home--donut--add{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 30%;
+    padding: 10px;
+}
