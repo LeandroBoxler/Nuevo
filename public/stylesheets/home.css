@@ -1,6 +1,7 @@
 .main--home{
     padding: 5px;
 }
+/*CARTEL DE MAS VENDIDO*/
 .main--masVendido{
     width: 30%;
     background-color: black;
@@ -15,12 +16,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 3%;
-    gap: 10px;
+    gap: 5px;
 }
 
 /* DIV QUE ENCIERRA A CADA DONA */
 .home--donut--div{
-    width: 90%;
+    padding: 30px 0;
     text-align: center;
 }
 .home--donut--div img{
@@ -36,6 +37,7 @@
     font-weight: bold;
     text-align: center;
 }
+/* BOTON PARA COMPRAR UNA DONA */
 .home--donut--add{
     background-color: black;
     color: rgb(255, 255, 255);
