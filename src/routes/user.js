@@ -1,12 +1,12 @@
 var express = require('express');
-const {home} = require('../controllers/home');
+const {login} = require('../controllers/user/login');
 
 
 var router = express.Router();
 
 
 /* GET home page. */
-router.get('/', home);
+router.get('/login', login);
 
 
 module.exports = router;

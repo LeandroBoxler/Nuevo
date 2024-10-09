@@ -1,20 +1,49 @@
 .footer{
     background-color: black;
     color: white;
-   
+    padding: 10px 0 ;
     
 }
 
 /*SECCION DE INFORMACION*/
 .footer--section{
     font-weight: bold;
-    padding: 6% 15%;
-    
+    padding: 10px 0 ;
+    margin: 0 20% 0 15%;
 }
 
-/*DIV DE SUSCRIPCION*/
+/*DIV DE LA FRASE PARA SUSCRIBIRSE*/
 .footer--div{
-    padding: 0 20% 0 15%;
+   margin: 0 20% 0 15%;
 }
+
+
+/*LA PALABRA EMAIL*/
+.footer--label--Email{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    margin: 0 20% 0 15%;
+}
+
+/* EL IMPUT A LLENAR PARA SUSCRIBIRSE */
+.footer--form{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 20% 0 15%;
+    color: white;
+    border: none;
+    border-bottom: 1px white solid;
+    padding: 2px;
+}
+
+/*BOTON DE ENVIAR TU SUSCRIPCION */
+.footer--buttom{
+    margin: 5% 20% 0 15%;
+    padding: 5px;
+    width: 28%;
+    border: none;
+}
+
+
+
 
 
